@@ -21,7 +21,7 @@ while True:
             print("Liked post: " + posts[i].id)
             cl.user_follow(posts[i].user.pk)
             print("Followed: " + posts[i].user.username)
-            time.sleep(random.randint(58, 123))
+            time.sleep(random.randint(864,901 ))
 
     except Exception as ex:
         print(ex)
