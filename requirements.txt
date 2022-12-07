@@ -38,7 +38,7 @@ numpy==1.20.3
 opencv-python==4.6.0.66
 outcome==1.1.0
 pandas==1.5.0
-Pillow==9.3.0
+Pillow==8.2.0
 plotly==5.1.0
 plyer==2.0.0
 polyfoto==0.3.0
