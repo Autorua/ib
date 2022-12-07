@@ -6,8 +6,8 @@ import random
 cl = Client()
 cl.login(config.username, config.password)
 
-hashtag = "richmond"
-amount = 15
+hashtag = "birmingham"
+amount = 3000
 posts = cl.hashtag_medias_recent(hashtag,amount)
 #posts = cl.hashtag_medias_top(hashtag, amount)
 
