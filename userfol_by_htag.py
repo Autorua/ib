@@ -7,7 +7,7 @@ cl = Client()
 cl.login(config.username, config.password)
 
 hashtag = "glendale"
-amount = 0
+amount = 15
 posts = cl.hashtag_medias_recent(hashtag,amount)
 #posts = cl.hashtag_medias_top(hashtag, amount)
 
